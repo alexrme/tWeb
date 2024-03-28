@@ -92,6 +92,8 @@
   margin: 0px;
 }
 #rbgWeb {
+  width: 80%;
+  aspect-ratio: 16 / 9;
   margin-top: 30px;
   margin-bottom: 30px;
   display: block;
