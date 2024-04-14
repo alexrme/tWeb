@@ -1,0 +1,94 @@
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    border-radius: 15px;
+    height: 80px;
+    position: sticky;
+    top: 10px;
+  }
+  #headerText {
+    /*border: green solid;*/
+    color: #f0f8ff;
+    font-family: "Poppins";
+    font-size: 45px;
+    font-weight: 800;
+    font-style: condensed;
+  }
+  #gearIcon {
+    height: 35px;
+    width: 35px;
+    font-size: 35px;
+    /*border: red solid;*/
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    transform: translateX(-20px);
+    padding: 0px;
+    margin-right: 5px;
+    animation: spin 5s linear infinite;
+  }
+  .dropdown {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    bottom: 17%;
+  }
+  .dropdown button {
+    color: aliceblue;
+    font-size: 30px;
+    background-color: #202020;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown .content {
+    display: none;
+    border-radius: 15px;
+    position: absolute;
+    background-color: #303030;
+    min-width: 100px;
+    text-align: center;
+  }
+  .dropdown:hover .content {
+    display: block;
+  }
+  .dropdown:active .content {
+    display: block;
+  }
+  .dropdown:hover button {
+    color: rgb(104, 104, 104);
+  }
+  .dropdown:active button {
+    color: rgb(104, 104, 104);
+  }
+  .dropdown a:active {
+    background-color: rgb(31, 31, 31);
+  }
+  .dropdown a:hover {
+    background-color: rgb(31, 31, 31);
+    border-radius: 15px;
+  }
+  body {
+    border-color: aqua;
+    background-color: #181818;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

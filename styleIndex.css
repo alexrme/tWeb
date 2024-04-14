@@ -1,0 +1,45 @@
+.tBox {
+  border-radius: 20px;
+  border: #303030 solid;
+  background-color: #303030;
+  color: rgb(215, 222, 228);
+  font-size: larger;
+  text-align: justify;
+}
+#testText {
+  margin-top: 20px;
+  padding: 20px;
+}
+#testText p {
+  margin: 0px;
+}
+#rbgWeb {
+  width: 80%;
+  aspect-ratio: 16 / 9;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#tB_1,
+#tB_2 {
+  padding-right: 23px;
+  padding-left: 23px;
+  display: inline-block;
+  width: 500px;
+}
+
+#tB_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#tB_1 {
+  margin-right: 40px;
+  margin-left: auto;
+}
+#tB_2 {
+  margin-right: auto;
+  margin-left: 40px;
+}
